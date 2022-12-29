@@ -1,0 +1,34 @@
+//căng chỉnh background
+@import "../themes/variable.scss";
+.background_cover {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+// kiểu hiệu ứng nút bấm
+.after_button{
+  position: absolute;
+  content: "";
+  left: 28%;
+  top: 28%;
+  width: 50%;
+  height: 50%;
+  border: none;
+  border-radius: 20px; 
+  transform: scale(1, 0);
+  transition: all 0.3s;
+}
+.hover_button{
+    transform: scale(1, 1);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;      
+}
+.styleBody{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
